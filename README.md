@@ -4,7 +4,7 @@
 
 **Source:** [kaggle.com/datasets/tboyle10/medicaltranscriptions](https://www.kaggle.com/datasets/tboyle10/medicaltranscriptions)
 
-4,999 de-identified medical transcription samples across 40 specialties. No sign-up required beyond a free Kaggle account.
+4,999 de-identified medical transcription samples across 40 specialties. 
 
 ### Download
 
