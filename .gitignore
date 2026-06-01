@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model artifacts (large files — don't commit to git)
+models/embeddings_cache.npy
+models/classifier.joblib
+models/pca.joblib
+models/train_metadata.json
+
+# Keep placeholder
+!models/.gitkeep
+!results/.gitkeep
+
+# Data files (download locally, don't commit)
+data/mtsamples.csv
+data/*.csv
+data/*.parquet
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Secrets / API keys
+.env
+*.env
+kaggle.json
+
+# Logs
+*.log
+logs/
